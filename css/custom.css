@@ -95,6 +95,18 @@ body {
   }
 }*/
 
+.image-header-text {
+  font-size: 10rem;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  color: #000;
+  text-shadow: -0.3rem -0.3rem 0.3rem #000;
+}
+
+/*.header-img {
+}*/
+
 .card {
   height: 100%;
 }
