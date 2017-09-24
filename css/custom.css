@@ -1,0 +1,100 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+ #icon {
+   display: none;
+ }
+
+ @media screen and (min-width: 768px) {
+   .btn {
+       font-size: 1.6rem;
+       border-radius: 0.7rem;
+   }
+ }
+
+ @media screen and (min-width: 768px) {
+   .btn {
+       font-size: 1.2rem;
+       border-radius: 0.7rem;
+   }
+ }
+
+@media screen and (min-width: 992px) {
+   .navbar-nav {
+       float:none;
+       margin:0 auto;
+       display: block;
+       text-align: center;
+   }
+
+   .navbar-nav > li {
+       display: inline-block;
+       float:none;
+   }
+
+   #icon {
+     display: inline-block;
+   }
+
+   #icon-text {
+     display: none;
+   }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+    border-radius: 0.7rem;
+  }
+ }
+
+
+  @media screen and (min-width: 1200px) {
+     .navbar-expand-lg .navbar-nav .nav-link {
+       padding-right: 2rem;
+       padding-left: 2rem;
+     }
+  }
+
+body {
+  padding-top: 54px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  background-color: #343a40;
+}
+
+.btn-block {
+  margin-top: 2rem !important;
+}
+
+.btn-primary {
+  background-color: #ffee58;
+  border-color: #ffee58;
+  color: #000;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4F575E;
+  border-color: #4F575E;
+}
+
+.jumbotron {
+  background-color: #343a40;
+}
+
+/*@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}*/
+
+.card {
+  height: 100%;
+}
