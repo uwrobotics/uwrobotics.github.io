@@ -2,6 +2,15 @@
 <html lang="en">
 
   <head>
+    <!-- jQuery -->
+    <script src="js\jquery-3.2.1.min.js"></script>
+
+    <!-- Inserts contents of navigation.html -->
+    <script>
+      $.get("navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,43 +36,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-uppercase">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Competitions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Outreach</a>
-            </li>
-            <li class="nav-item">
-            <a href="#">
-              <img width="100" height="100" src="data\logo.png" id="icon"/>
-            </a>
-            <a class="nav-link" href="#">
-              <span id="icon-text">Home</span>
-            </a>
-              <span class="sr-only">(current)</span>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Get Involved</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div id="nav-placeholder"></div>
 
     <!-- Page Content -->
     <div class="container">
@@ -106,6 +79,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
 
   </body>
 
