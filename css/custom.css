@@ -98,15 +98,24 @@ body {
 
 .image-header-text {
   font-size: 10rem;
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
+  text-align: center;
   color: #000;
-  text-shadow: -0.3rem -0.3rem 0.3rem #000;
 }
 
-/*.header-img {
-}*/
+/*image header*/
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.py-5 {
+    margin-top: 5rem!important;
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
 
 .card {
   height: 100%;
