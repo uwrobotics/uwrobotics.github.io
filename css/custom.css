@@ -97,8 +97,6 @@ body {
 }*/
 
 .image-header-text {
-  font-size: 10rem;
-  text-align: center;
   color: #000;
 }
 
@@ -119,4 +117,10 @@ body {
 
 .card {
   height: 100%;
+}
+
+.h1, h1 {
+  font-size: 10rem;
+  text-align: center;
+  color: #fff;
 }
