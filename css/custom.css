@@ -163,6 +163,95 @@ p > a {
   background-color: #555;
 }
 
-img {
+div > img {
   height: 100%;
+}
+
+/*pasted from Agency CSS*/
+
+  section#contact .form-group {
+    margin-bottom: 25px; }
+    section#contact .form-group input,
+    section#contact .form-group textarea {
+      padding: 20px; }
+    section#contact .form-group input.form-control {
+      height: auto; }
+    section#contact .form-group textarea.form-control {
+      height: 236px; }
+  section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none; }
+  section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #b3b3b3;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #b3b3b3;
+    /* Firefox 18- */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #b3b3b3;
+    /* Firefox 19+ */
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #b3b3b3;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+  section#contact .text-danger {
+    color: #e74c3c; }
+
+
+  .btn-xl {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+    border-color: #fed136;
+    background-color: #fed136;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; }
+    .btn-xl.focus, .btn-xl:focus {
+      color: white;
+      border-color: #b48b01;
+      background-color: #fec503; }
+    .btn-xl:hover {
+      color: white;
+      border-color: #f6bf01;
+      background-color: #fec503; }
+    .btn-xl.active, .btn-xl:active,
+    .open > .btn-xl.dropdown-toggle {
+      color: white;
+      border-color: #f6bf01;
+      background-color: #fec503; }
+      .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
+      .open > .btn-xl.dropdown-toggle.focus,
+      .open > .btn-xl.dropdown-toggle:focus,
+      .open > .btn-xl.dropdown-toggle:hover {
+        color: white;
+        border-color: #b48b01;
+        background-color: #dcab01; }
+    .btn-xl.active, .btn-xl:active,
+    .open > .btn-xl.dropdown-toggle {
+      background-image: none; }
+    .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,
+    fieldset[disabled] .btn-xl.focus,
+    fieldset[disabled] .btn-xl:focus,
+    fieldset[disabled] .btn-xl:hover {
+      border-color: #fed136;
+      background-color: #fed136; }
+    .btn-xl .badge {
+      color: #fed136;
+      background-color: white; }
+
+/*end of copypasta from Agency*/
+
+#contact > header {
+  padding-bottom: 2rem;
 }
