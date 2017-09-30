@@ -135,6 +135,12 @@ h3 {
   font-size: 3rem;
 }
 
+h4 {
+  color: #fff;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
 p {
   color: #fff;
 }
@@ -149,4 +155,14 @@ p > a {
 
 .image-header-text {
   color: #000;
+}
+
+.accent {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #555;
+}
+
+img {
+  height: 100%;
 }
