@@ -127,11 +127,21 @@ body {
   color: #fff;
 }
 
+h2 {
+  color: #fff;
+  font-size: 5rem;
+}
+
 h3 {
   color: #fff;
   padding-top: 1rem;
+  font-size: 3rem;
 }
 
 p {
   color: #fff;
+}
+
+.spacer {
+  padding-top: 5rem;
 }
