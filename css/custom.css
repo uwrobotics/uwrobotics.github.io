@@ -1,47 +1,47 @@
 /*!
- * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
- */
+* Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+* Copyright 2013-2017 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+*/
 
- #icon {
-   display: none;
- }
+#icon {
+  display: none;
+}
 
- @media screen and (min-width: 768px) {
-   .btn {
-       font-size: 1.6rem;
-       border-radius: 0.7rem;
-   }
- }
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+  }
+}
 
- @media screen and (min-width: 768px) {
-   .btn {
-       font-size: 1.2rem;
-       border-radius: 0.7rem;
-   }
- }
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+  }
+}
 
 @media screen and (min-width: 992px) {
-   .navbar-nav {
-       float:none;
-       margin:0 auto;
-       display: block;
-       text-align: center;
-   }
+  .navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+  }
 
-   .navbar-nav > li {
-       display: inline-block;
-       float:none;
-   }
+  .navbar-nav > li {
+    display: inline-block;
+    float:none;
+  }
 
-   #icon {
-     display: inline-block;
-   }
+  #icon {
+    display: inline-block;
+  }
 
-   #icon-text {
-     display: none;
-   }
+  #icon-text {
+    display: none;
+  }
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.75rem;
@@ -52,15 +52,15 @@
     font-size: 1.8rem;
     border-radius: 0.7rem;
   }
- }
+}
 
 
-  @media screen and (min-width: 1200px) {
-     .navbar-expand-lg .navbar-nav .nav-link {
-       padding-right: 1.5rem;
-       padding-left: 2rem;
-     }
+@media screen and (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 2rem;
   }
+}
 
 body {
   padding-top: 54px;
@@ -91,25 +91,25 @@ body {
 }
 
 /*@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+body {
+padding-top: 56px;
+}
 }*/
 
 
 /*image header*/
 .bg-image-full {
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .py-5 {
-    margin-top: 5rem!important;
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
+  margin-top: 5rem!important;
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
 }
 
 .card {
