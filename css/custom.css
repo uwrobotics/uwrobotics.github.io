@@ -96,9 +96,6 @@ body {
   }
 }*/
 
-.image-header-text {
-  color: #000;
-}
 
 /*image header*/
 .bg-image-full {
@@ -148,4 +145,8 @@ p {
 
 p > a {
   color: red;
+}
+
+.image-header-text {
+  color: #000;
 }
