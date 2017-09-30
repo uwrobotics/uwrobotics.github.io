@@ -120,7 +120,18 @@ body {
 }
 
 .h1, h1 {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
   font-size: 10rem;
   text-align: center;
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+  padding-top: 1rem;
+}
+
+p {
   color: #fff;
 }
