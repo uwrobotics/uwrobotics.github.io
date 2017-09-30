@@ -145,3 +145,7 @@ p {
 .spacer {
   padding-top: 5rem;
 }
+
+p > a {
+  color: red;
+}
