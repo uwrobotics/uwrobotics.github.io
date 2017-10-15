@@ -66,7 +66,7 @@ body {
   padding-top: 54px;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
-  background-color: #343a40;
+  background-color: #f2f2f2;
 }
 
 .btn-block {
@@ -82,12 +82,12 @@ body {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #4F575E;
-  border-color: #4F575E;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
 }
 
 .jumbotron {
-  background-color: #343a40;
+  background-color: #f2f2f2;
 }
 
 /*@media (min-width: 992px) {
@@ -121,28 +121,28 @@ padding-top: 56px;
   padding-bottom: 4rem;
   font-size: 10rem;
   text-align: center;
-  color: #fff;
+  color: #4F4F4F;
 }
 
 h2 {
-  color: #fff;
+  color: #4F4F4F;
   font-size: 5rem;
 }
 
 h3 {
-  color: #fff;
+  color: #4F4F4F;
   padding-top: 1rem;
   font-size: 3rem;
 }
 
 h4 {
-  color: #fff;
+  color: #4F4F4F;
   padding-top: 1rem;
   font-size: 2rem;
 }
 
-p {
-  color: #fff;
+p, a {
+  color: #333333;
 }
 
 .spacer {
@@ -160,7 +160,7 @@ p > a {
 .accent {
   margin-top: 2em;
   padding: 1em;
-  background-color: #555;
+  background-color: #4F4F4F;
 }
 
 div > img {
@@ -250,6 +250,10 @@ div > img {
 #contact > header {
   padding-bottom: 2rem;
 }
+
+/*.navbar {
+  background-color: #e0e0e0;
+}*/
 
 
 /*.sponsor-img {
