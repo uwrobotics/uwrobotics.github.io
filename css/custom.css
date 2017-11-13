@@ -44,6 +44,10 @@ body {
       .masthead .intro-body .intro-text {
         font-size: 22px; } }
 
+.btn {
+  white-space: normal;
+  height: 100%;
+}
 
 .masthead .intro-body {
     display: table-cell;
@@ -66,7 +70,7 @@ body {
 @media screen and (min-width: 768px) {
   .btn {
     border-radius: 0.7rem;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
   .masthead {
       height: 100%;
@@ -93,7 +97,7 @@ body {
   }
 
   .btn {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border-radius: 0.7rem;
   }
 }
@@ -106,8 +110,12 @@ body {
   }
 }
 
-.btn-block {
+/*.btn-block {
   margin-top: 2rem !important;
+}*/
+
+.btn-space {
+  margin-top: 1rem;
 }
 
 .btn-primary {
