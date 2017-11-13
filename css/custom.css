@@ -79,9 +79,9 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
-  color: #fff;
+  background-color: #fff9cc;
+  border-color: #fff9cc;
+  color: #000;
 }
 
 .jumbotron {
