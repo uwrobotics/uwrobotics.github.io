@@ -215,6 +215,9 @@ div > img {
   height: 100%;
 }
 
+.img-fluid {
+    max-width: 85%;
+}
 
   .btn-xl {
     font-size: 18px;
