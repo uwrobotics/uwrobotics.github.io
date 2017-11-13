@@ -63,6 +63,9 @@ body {
   padding: .25rem .25rem;
 }
 
+#content {
+  min-height: calc(100vh - 80px);
+  padding: 30px 20px;
 }
 
 @media screen and (min-width: 768px) {
