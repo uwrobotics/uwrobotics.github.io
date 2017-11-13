@@ -63,11 +63,6 @@ body {
   padding: .25rem .25rem;
 }
 
-@media screen and (min-width: 768px) {
-  .btn {
-    border-radius: 0.7rem;
-    font-size: 1.6rem;
-  }
 }
 
 @media screen and (min-width: 768px) {
