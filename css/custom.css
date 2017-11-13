@@ -211,9 +211,8 @@ p > a {
 }
 
 .accent {
-  background-color: #4F4F4F;
-  margin-top: 2em;
-  padding: 1em;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 div > img {
