@@ -2,15 +2,8 @@
 <html lang="en">
 
 <head>
-  <!-- jQuery -->
-  <script src="js\jquery-3.2.1.min.js"></script>
-
-  <!-- Inserts contents of navigation.html -->
-  <script>
-  $.get("navigation.html", function(data){
-    $("#nav-placeholder").replaceWith(data);
-  });
-  </script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,17 +12,14 @@
 
   <title>UW Robotics Team</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="css/custom.css" rel="stylesheet">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="data\logo.png" />
 
-  <!-- Oswald font -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <!-- Lato font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 
@@ -38,38 +28,43 @@
   <!-- Navigation -->
   <div id="nav-placeholder"></div>
 
-  <!-- Page Content -->
-  <div class="container">
 
-    <header class="py-5 bg-image-full" style="background-image: url('http://katyapotapov.com/uwrt-site/data/pylons-robots.jpg');">
-      <div class="text-uppercase h1 image-header-text">
-        Get Involved
-      </div>
-    </header>
-
-
-    <div class="row text-uppercase">
-      <div class="col-md-4">
-        <a href="#" class="btn btn-primary btn-lg btn-block" role="button">Join the design team!</a>
-      </div>
-      <div class="col-md-4">
-        <a href="#" class="btn btn-primary btn-lg btn-block" role="button">Join the outreach team!</a>
-      </div>
-      <div class="col-md-4">
-        <a href="sponsors.html" class="btn btn-primary btn-lg btn-block" role="button">Join our sponsors!</a>
+  <div id="main">
+    <!-- Page Content -->
+    <div class="container">
+      <div id="content">
+        <h1>Get Involved</h1>
+        <p>
+          There are many ways to get involved with the UW Robotics Team.
+        </p>
+        <div class="p-spacer"></div>
+        <h2>Joining the Team</h2>
+        <p>
+          Empowering students to explore robotics and technology in a learning environment is our foremost goal. We provide a space for students to learn, contribute and lead. We'd love to have you join us!
+        </p>
+        <h2>Sponsorship</h2>
+        <p>
+          UWRT's achievements would not be possible without our sponsors' help! If you'd like to sponsor us, please read through <a href="https://drive.google.com/uc?export=download&id=0B_3t0JLuGBLbNGgzRE9ZNVpTRzA">our sponsorship package</a>.
+        </p>
+        <div class="p-spacer"></div>
+        <div class="row text-uppercase">
+          <div class="col-md-4 btn-space">
+            <a href="mailto:robotics@uwaterloo.ca?Subject=Design%20Team%20Position" target="_blank" class="btn btn-primary btn-lg btn-block" role="button">Join the design team!</a>
+          </div>
+          <div class="col-md-4 btn-space">
+            <a href="mailto:robotics@uwaterloo.ca?Subject=Outreach%20Team%20Position" class="btn btn-primary btn-lg btn-block" role="button">Join the outreach team!</a>
+          </div>
+          <div class="col-md-4 btn-space">
+            <a href="mailto:robotics@uwaterloo.ca?Subject=Sponsorship" class="btn btn-primary btn-lg btn-block" role="button">Sponsor us!</a>
+          </div>
+        </div>
       </div>
     </div>
-
   </div>
 
 
-  <!-- Footer -->
-  <footer class="py-3 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; University of Waterloo Robotics Team 2017</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+  <!-- Footer - copyright and contact info -->
+  <div id="footer-placeholder"></div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

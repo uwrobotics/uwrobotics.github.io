@@ -2,15 +2,8 @@
 <html lang="en">
 
 <head>
-  <!-- jQuery -->
-  <script src="js\jquery-3.2.1.min.js"></script>
-
-  <!-- Inserts contents of navigation.html -->
-  <script>
-  $.get("navigation.html", function(data){
-    $("#nav-placeholder").replaceWith(data);
-  });
-  </script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,17 +12,14 @@
 
   <title>UW Robotics Team</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="css/custom.css" rel="stylesheet">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="data\logo.png" />
 
-  <!-- Oswald font -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <!-- Lato font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 
@@ -38,25 +28,79 @@
   <!-- Navigation -->
   <div id="nav-placeholder"></div>
 
-  <!-- Page Content -->
-  <div class="container">
+  <div id="main">
+    <!-- Page Content -->
+    <div class="container">
+      <div id="content">
+        <h1>About Us</h1>
+        <p>
+          We're always looking to design something new. Whether it be engineering or otherwise, we're focused on developing technology. As a team, our goal is to test and build upon anything we're working on. Competitions help us understand what works and what we can improve on. We learn from our mistakes and grow as a team.
+        </p>
 
-    <header class="py-5 bg-image-full" style="background-image: url('http://katyapotapov.com/uwrt-site/data/rover-landscape.jpg');">
-      <div class="text-uppercase h1 image-header-text">
-        About Us
+        <div class="p-spacer"></div>
+        <h1>The Team</h1>
+        <div class="p-spacer"></div>
+
+        <!-- Team Members Row -->
+        <div class="row">
+          <div class="col-lg-12">
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Raj.jpg" alt="">
+            <h3>Raj Shah<br />
+              <small>Co-Team Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Hojin.jpg" alt="">
+            <h3>Hojin Mok<br />
+              <small>Co-Team Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Kieran.jpg" alt="">
+            <h3>Kieran Ratcliffe<br />
+              <small>Mars Rover Systems Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Toni.jpg" alt="">
+            <h3>Toni Ogunmade<br />
+              <small>Robot Racing Systems Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Alice.jpg" alt="">
+            <h3>Alice Luo<br />
+              <small>Electrical Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Jerry.jpg" alt="">
+            <h3>Jerry Li<br />
+              <small>Co-Software Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Archie.jpg" alt="">
+            <h3>Archie Lee<br />
+              <small>Co-Software Lead</small>
+            </h3>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <img class="rounded-circle img-fluid d-block mx-auto" src="data/team/Geoff.jpg" alt="">
+            <h3>Geoff Spielman<br />
+              <small>Mechanical Lead</small>
+            </h3>
+          </div>
+        </div>
       </div>
-    </header>
-
+    </div>
   </div>
 
 
-  <!-- Footer -->
-  <footer class="py-3 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; University of Waterloo Robotics Team 2017</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+  <!-- Footer - copyright and contact info -->
+  <div id="footer-placeholder"></div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

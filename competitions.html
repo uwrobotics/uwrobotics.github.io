@@ -2,15 +2,8 @@
 <html lang="en">
 
 <head>
-  <!-- jQuery -->
-  <script src="js\jquery-3.2.1.min.js"></script>
-
-  <!-- Inserts contents of navigation.html -->
-  <script>
-  $.get("navigation.html", function(data){
-    $("#nav-placeholder").replaceWith(data);
-  });
-  </script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,17 +12,14 @@
 
   <title>UW Robotics Team</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="css/custom.css" rel="stylesheet">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="data\logo.png" />
 
-  <!-- Oswald font -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <!-- Lato font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 
@@ -38,41 +28,36 @@
   <!-- Navigation -->
   <div id="nav-placeholder"></div>
 
+  <div id="main">
   <!-- Page Content -->
   <div class="container">
-
-    <header>
-      <div class="spacer"></div>
-      <div class="spacer"></div>
-    </header>
-
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Meet Raj.</h1>
-          <h3 class="text-uppercase">Mars Rover Competition</h3>
-          <p>Hosted by the Mars Society, the annual University Rover Challenge, hosts over 60 teams from all over the world that compete with their rovers. The goal of the competition is to see which team's rover best mimicks the requirements of a rover actually used on Mars.<br /><br />
-
-            The Waterloo team placed 3rd in Canada, and 15th internationally in 2017 with Raj! <a href="getinvolved.html">Join us</a> in improving and re-designing Raj, our rover, for the 2018 competition in Utah.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="data/robot-racing.jpg" />
+    <div id="content">
+      <div class="row">
+        <h1>Mars Rover Competition</h1>
+        <p>
+          Hosted by the Mars Society, the annual University Rover Challenge, hosts over 60 teams from all over the world that compete with their rovers. The goal of the competition is to see which team's rover best mimicks the requirements of a rover actually used on Mars.
+        </p>
+        <p>
+          The Waterloo team placed 3rd in Canada, and 15th internationally in 2017! <a href="getinvolved.html">Join us</a> in improving and re-designing our rover for the 2018 competition in Utah.
+        </p>
+        <p>
+          Take a look at the video below if you'd like to see our Mars Rover in action.
+        </p>
+        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xi5wFZ1SiKU" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
+    </div>
+  </div>
+</div>
 
-      <!-- Footer -->
-      <footer class="py-3 bg-dark">
-        <div class="container">
-          <p class="m-0 text-center text-white">Copyright &copy; University of Waterloo Robotics Team 2017</p>
-        </div>
-        <!-- /.container -->
-      </footer>
+    <!-- Footer - copyright and contact info -->
+    <div id="footer-placeholder"></div>
 
-      <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/popper/popper.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    </body>
+</body>
 
-    </html>
+</html>

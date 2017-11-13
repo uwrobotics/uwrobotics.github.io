@@ -1,24 +1,79 @@
-/*!
-* Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
-* Copyright 2013-2017 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
-*/
+html {
+  width: 100%;
+  height: 100%; }
 
-#icon {
-  display: none;
+body {
+  background-color: #f8f9fa;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../data/rover-landscape.jpg") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .masthead .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .masthead {
+      height: 100%;
+      padding: 0; }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .masthead .intro-body .intro-text {
+        font-size: 22px; } }
+
+.btn {
+  white-space: normal;
+  height: 100%;
+}
+
+.masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bg-light-transparent {
+  background-color: #f8f9fa;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar {
+  padding: .25rem .25rem;
+}
+
+#main {
+  padding-top: 68px;
+}
+
+#content {
+  min-height: calc(100vh - 128px);
+  padding: 30px 20px;
 }
 
 @media screen and (min-width: 768px) {
   .btn {
-    font-size: 1.6rem;
     border-radius: 0.7rem;
+    font-size: 1.05rem;
   }
-}
-
-@media screen and (min-width: 768px) {
-  .btn {
-    font-size: 1.2rem;
-    border-radius: 0.7rem;
+  .masthead {
+      height: 100%;
+      padding: 0;
   }
 }
 
@@ -35,21 +90,13 @@
     float:none;
   }
 
-  #icon {
-    display: inline-block;
-  }
-
-  #icon-text {
-    display: none;
-  }
-
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.75rem;
-    padding-left: 0.75rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
   }
 
   .btn {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     border-radius: 0.7rem;
   }
 }
@@ -57,44 +104,43 @@
 
 @media screen and (min-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
     padding-left: 2rem;
+    padding-right: 1.5rem;
   }
 }
 
-body {
-  padding-top: 54px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
-  background-color: #f2f2f2;
-}
-
-.btn-block {
+/*.btn-block {
   margin-top: 2rem !important;
+}*/
+
+.btn-space {
+  margin-top: 1rem;
 }
 
 .btn-primary {
   background-color: #ffee58;
   border-color: #ffee58;
   color: #000;
-  line-height: 5.5rem;
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
+  background-color: #fff9cc;
+  border-color: #fff9cc;
+  color: #000;
 }
 
 .jumbotron {
   background-color: #f2f2f2;
 }
 
-/*@media (min-width: 992px) {
-body {
-padding-top: 56px;
+.main-spacer {
+  margin-top: 20%;
 }
-}*/
+
+.p-spacer {
+  margin-top: 3rem;
+}
 
 
 /*image header*/
@@ -106,33 +152,26 @@ padding-top: 56px;
   -o-background-size: cover;
 }
 
-.py-5 {
-  margin-top: 5rem!important;
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
-}
-
 .card {
   height: 100%;
 }
 
 .h1, h1 {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-  font-size: 10rem;
-  text-align: center;
   color: #4F4F4F;
+  font-size: 3rem;
+  /*padding-bottom: 1rem;
+  padding-top: 1rem;*/
 }
 
-h2 {
+.h2, h2 {
   color: #4F4F4F;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 h3 {
   color: #4F4F4F;
   padding-top: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -141,8 +180,19 @@ h4 {
   font-size: 2rem;
 }
 
+.tagline {
+  color: #f2f2f2;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 5rem;
+}
+
 p, a {
   color: #333333;
+}
+
+p {
+  font-size: 1.2rem;
+  word-wrap: break-word;
 }
 
 .spacer {
@@ -158,50 +208,17 @@ p > a {
 }
 
 .accent {
-  margin-top: 2em;
-  padding: 1em;
-  background-color: #4F4F4F;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
 div > img {
   height: 100%;
 }
 
-/*pasted from Agency CSS*/
-
-  section#contact .form-group {
-    margin-bottom: 25px; }
-    section#contact .form-group input,
-    section#contact .form-group textarea {
-      padding: 20px; }
-    section#contact .form-group input.form-control {
-      height: auto; }
-    section#contact .form-group textarea.form-control {
-      height: 236px; }
-  section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none; }
-  section#contact ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: #b3b3b3;
-    text-transform: uppercase; }
-  section#contact :-moz-placeholder {
-    font-weight: 700;
-    color: #b3b3b3;
-    /* Firefox 18- */
-    text-transform: uppercase; }
-  section#contact ::-moz-placeholder {
-    font-weight: 700;
-    color: #b3b3b3;
-    /* Firefox 19+ */
-    text-transform: uppercase; }
-  section#contact :-ms-input-placeholder {
-    font-weight: 700;
-    color: #b3b3b3;
-    text-transform: uppercase; }
-  section#contact .text-danger {
-    color: #e74c3c; }
-
+.img-fluid {
+    max-width: 85%;
+}
 
   .btn-xl {
     font-size: 18px;
@@ -250,12 +267,3 @@ div > img {
 #contact > header {
   padding-bottom: 2rem;
 }
-
-/*.navbar {
-  background-color: #e0e0e0;
-}*/
-
-
-/*.sponsor-img {
-  vertical-align: middle;
-}*/
