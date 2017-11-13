@@ -194,6 +194,10 @@ p, a {
   color: #333333;
 }
 
+p {
+  font-size: 1.2rem;
+}
+
 .spacer {
   padding-top: 5rem;
 }
