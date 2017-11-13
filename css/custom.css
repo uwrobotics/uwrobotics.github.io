@@ -115,15 +115,14 @@ padding-top: 56px;
 
 .h1, h1 {
   color: #4F4F4F;
-  font-size: 10rem;
-  padding-bottom: 4rem;
-  padding-top: 5rem;
-  text-align: center;
+  font-size: 3rem;
+  /*padding-bottom: 1rem;
+  padding-top: 1rem;*/
 }
 
-h2 {
+.h2, h2 {
   color: #4F4F4F;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 h3 {
