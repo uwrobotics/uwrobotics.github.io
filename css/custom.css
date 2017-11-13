@@ -64,7 +64,7 @@ body {
 }
 
 #content {
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 128px);
   padding: 30px 20px;
 }
 
