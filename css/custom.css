@@ -40,11 +40,6 @@
     float:none;
   }
 
-  #icon {
-    display: inline-block;
-  }
-
-
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.75rem;
     padding-left: 0.75rem;
