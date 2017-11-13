@@ -140,6 +140,12 @@ body {
 /*@media (min-width: 992px) {
 body {
 padding-top: 56px;
+.main-spacer {
+  margin-top: 20%;
+}
+
+.p-spacer {
+  margin-top: 3rem;
 }
 }*/
 
