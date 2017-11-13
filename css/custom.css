@@ -7,6 +7,12 @@
 /*Smaller widths - do not display icon in dropdown menu*/
 #icon {
   display: none;
+body {
+  background-color: #f8f9fa;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+}
 }
 
 .navbar {
@@ -57,13 +63,6 @@
     padding-left: 2rem;
     padding-right: 1.5rem;
   }
-}
-
-body {
-  background-color: #f2f2f2;
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  padding-top: 54px;
 }
 
 .btn-block {
