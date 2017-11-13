@@ -14,6 +14,42 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../data/rover-landscape.jpg") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .masthead .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .masthead {
+      height: 100%;
+      padding: 0; }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .masthead .intro-body .intro-text {
+        font-size: 22px; } }
+
+
+.masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 }
 
 .navbar {
@@ -31,6 +67,10 @@ body {
   .btn {
     border-radius: 0.7rem;
     font-size: 1.2rem;
+  }
+  .masthead {
+      height: 100%;
+      padding: 0;
   }
 }
 
