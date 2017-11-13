@@ -4,9 +4,6 @@
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
 */
 
-/*Smaller widths - do not display icon in dropdown menu*/
-#icon {
-  display: none;
 html {
   width: 100%;
   height: 100%; }
