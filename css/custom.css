@@ -186,10 +186,6 @@ h4 {
   text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-p, a {
-  color: #333333;
-}
-
 p {
   font-size: 1.2rem;
   word-wrap: break-word;
@@ -197,10 +193,6 @@ p {
 
 .spacer {
   padding-top: 5rem;
-}
-
-p > a {
-  color: red;
 }
 
 .image-header-text {
