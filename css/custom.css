@@ -207,6 +207,13 @@ p > a {
   color: #000;
 }
 
+.sponsor-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-bottom: 3rem;
+}
+
 .accent {
   margin-top: 2rem;
   padding: 1rem;
