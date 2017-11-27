@@ -252,7 +252,7 @@ div > img {
     right: 0;
     z-index: -1;
     display: block;
-    background: url(/data/rover-landscape.jpg) no-repeat bottom center fixed;
+    background: url(../data/rover-landscape.jpg) no-repeat bottom center fixed;
     background-size: cover;
     width: 110%;
     height: 110%;
