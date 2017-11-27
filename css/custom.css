@@ -68,9 +68,7 @@ body {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.6rem;
-    padding-left: 0.6rem;
-  }
-
+    padding-left: 0.6rem; }
 }
 @media screen and (min-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -78,10 +76,6 @@ body {
     padding-right: 1.5rem;
   }
 }
-
-/*.btn-block {
-  margin-top: 2rem !important;
-}*/
 
 .btn-space {
   margin-top: 1rem;
@@ -102,10 +96,6 @@ body {
 
 .jumbotron {
   background-color: #f2f2f2;
-}
-
-.main-spacer {
-  margin-top: 20%;
 }
 
 .p-spacer {
@@ -129,8 +119,6 @@ body {
 .h1, h1 {
   color: #4F4F4F;
   font-size: 3rem;
-  /*padding-bottom: 1rem;
-  padding-top: 1rem;*/
 }
 
 .h2, h2 {
@@ -184,6 +172,7 @@ p {
   margin-top: 2rem;
   padding: 1rem;
 }
+
 
 div > img {
   height: 100%;
