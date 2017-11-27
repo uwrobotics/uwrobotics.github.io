@@ -180,7 +180,12 @@ div > img {
 }
 
 .img-fluid {
-    max-width: 85%;
+  max-width: 85%;
+  margin: auto;
+  padding-top: 40px; }
+@media (min-width: 768px) {
+.img-fluid {
+  padding-top: 0; }
 }
 
 /*for Google Calendar widget (responsive)*/
