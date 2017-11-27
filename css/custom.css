@@ -255,3 +255,16 @@ div > img {
   width: 95%;
 }
 
+#about {
+    border-width: 15px 0;
+    padding: 100px;
+    position: relative;
+}
+
+#news {
+    border-width: 15px 0;
+    padding: 50px;
+    position: relative;
+    margin: auto;
+}
+
