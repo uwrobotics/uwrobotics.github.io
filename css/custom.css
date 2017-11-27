@@ -175,6 +175,11 @@ p {
   top: 50%;
   transform: translateY(-50%);
   margin-bottom: 3rem;
+  display: block; }
+  @media screen and (min-width: 768px) {
+  .sponsor-img {
+    margin-bottom: auto;
+  }
 }
 
 .accent {
