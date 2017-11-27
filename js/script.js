@@ -7,3 +7,16 @@ $.get("navigation.html", function(data){
 $.get("footer.html", function(data){
   $("#footer-placeholder").replaceWith(data);
 });
+
+//Initializes Slick slider
+$(document).ready(function(){
+  $('.news-carousel').slick({
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: true,
+    mobileFirst: true,
+    pauseOnFocus: false,
+    pauseOnHover: false
+  });
+});
