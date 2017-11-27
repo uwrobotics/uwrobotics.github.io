@@ -268,3 +268,24 @@ div > img {
     margin: auto;
 }
 
+@media screen and (max-width: 991px) {
+.hide-on-mobile {
+  display: none; }
+}
+
+@media screen and (min-width: 992px) {
+.hide-on-desktop {
+  display: none!important; }
+}
+
+.news-carousel-container {
+  margin: auto;
+  width: 300px; }
+@media screen and (min-width: 992px) {
+.news-carousel-container {
+  width: auto; }
+}
+
+.news-headline {
+  margin-bottom: 40px;
+}
