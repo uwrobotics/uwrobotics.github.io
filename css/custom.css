@@ -211,4 +211,43 @@ div > img {
   width: 100%;
   height: 100%;
 }
+
 /*end for Google Calendar widget (responsive)*/
+
+.hero {
+    min-height: 100vh;
+    color: #fff;
+    z-index: 0;
+    overflow: auto;
+    width: auto;
+}
+.hero::before {
+    content: "";
+    position: fixed;
+    top: -5%;
+    left: -5%;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background: url(/data/rover-landscape.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    width: 110%;
+    height: 110%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.hero .wrapper {
+    padding: 15px 25px 0px 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 20px;
+    text-align: center;
+}
+
