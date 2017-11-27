@@ -9,9 +9,18 @@ body {
   height: 100%;
 }
 
-.btn {
-  white-space: normal;
+.btn-lg {
+  font-size: 1.5rem;
   height: 100%;
+  white-space: normal; }
+@media screen and (min-width: 768px) {
+.btn-lg {
+  border-radius: 0.7rem; }
+}
+@media screen and (min-width: 992px) {
+.btn-lg {
+  font-size: 1.7rem;
+  border-radius: 0.7rem; }
 }
 
 }
@@ -34,13 +43,6 @@ body {
   padding: 30px 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .btn {
-    border-radius: 0.7rem;
-    font-size: 1.05rem;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .navbar-nav {
     float:none;
@@ -59,13 +61,7 @@ body {
     padding-left: 0.6rem;
   }
 
-  .btn {
-    font-size: 1.5rem;
-    border-radius: 0.7rem;
-  }
 }
-
-
 @media screen and (min-width: 1200px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 2rem;
