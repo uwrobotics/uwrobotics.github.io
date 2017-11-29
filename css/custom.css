@@ -280,17 +280,21 @@ div > img {
 }
 
 #about {
-    border-width: 15px 0;
-    padding: 100px;
-    position: relative;
+  border-width: 15px 0;
+  padding: 100px;
+  position: relative;
 }
 
 #news {
-    border-width: 15px 0;
-    padding: 50px;
-    position: relative;
-    margin: auto;
+  border-width: 15px 0;
+  padding: 20px;
+  position: relative;
+  margin: auto; }
+@media screen and (min-width: 576px) {
+#news {
+  padding: 50px; }
 }
+
 
 @media screen and (max-width: 991px) {
 .hide-on-mobile {
