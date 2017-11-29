@@ -10,12 +10,13 @@ body {
 }
 
 .btn-lg {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   height: 100%;
   white-space: normal; }
 @media screen and (min-width: 768px) {
 .btn-lg {
-  border-radius: 0.7rem; }
+  border-radius: 0.7rem;
+  font-size: 1.5rem; }
 }
 @media screen and (min-width: 992px) {
 .btn-lg {
@@ -144,7 +145,7 @@ h4 {
 
 .tagline {
   color: #f2f2f2;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: -3px 3px 4px rgba(0, 0, 0, 0.5); }
 @media screen and (min-width: 576px) {
 .tagline {
@@ -238,7 +239,7 @@ div > img {
 /*end for Google Calendar widget (responsive)*/
 
 .hero {
-    min-height: 100vh;
+    min-height: 110vh;
     color: #fff;
     z-index: 0;
     overflow: auto;
