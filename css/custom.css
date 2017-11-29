@@ -303,12 +303,27 @@ div > img {
 
 .news-carousel-container {
   margin: auto;
+  width: 200px; }
+@media screen and (min-width: 576px) {
+.news-carousel-container {
   width: 300px; }
+}
 @media screen and (min-width: 992px) {
 .news-carousel-container {
   width: auto; }
 }
 
 .news-headline {
-  margin-bottom: 40px;
+  font-size: 10vw;
+  margin-bottom: 40px; }
+@media screen and (min-width: 576px) {
+.news-headline {
+  font-size: 3rem; }
+}
+
+.navbar-brand {
+  font-size: 1.05rem; }
+@media screen and (min-width: 576px) {
+.navbar-brand {
+  font-size: 1.25rem; }
 }
