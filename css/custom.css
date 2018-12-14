@@ -180,12 +180,16 @@ p {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin-bottom: 3rem;
-  display: block; }
+  margin-bottom: 3rem; }
   @media screen and (min-width: 768px) {
   .sponsor-img {
     margin-bottom: auto;
   }
+}
+
+.sponsor-img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */ 
 }
 
 .accent {
